@@ -135,7 +135,7 @@ axios.get('http://example.com/data', {
 </span>
 
 
-### **6. preflightContinue**
+## **6. preflightContinue**
 
 Determines whether the server should pass the preflight request to the application for handling.
 
@@ -146,7 +146,7 @@ A preflight request is an HTTP `OPTIONS` request sent before the actual request 
 If `false`, the server responds directly to the preflight OPTIONS request.If `true`, the application handles it.
 
 
-### **7. optionsSuccessStatus**
+## **7. optionsSuccessStatus**
 
 Sets the HTTP status code sent for successful OPTIONS (preflight) requests.
 
@@ -157,7 +157,7 @@ optionsSuccessStatus: 204
 The default is 204 (No Content), but you can change it to another status if needed for compatibility with certain clients.
 
 
-### **8. maxAge**
+## **8. maxAge**
 
 Specifies the duration (in seconds) that the results of a preflight request can be cached by the browser.
 
@@ -167,7 +167,7 @@ maxAge: 3600
 Indicates to the browser that it can cache the preflight response for 3600 seconds (1 hour). This reduces the frequency of preflight requests for performance optimization.
 
 
-### **9. preflight**
+## **9. preflight**
 
 Enables or disables handling of preflight requests.
 
@@ -178,7 +178,7 @@ preflight: true
 When set to `true`, it ensures preflight handling is enabled for cross-origin requests.
 
 
-### **10. hideOptionsRoute**
+## **10. hideOptionsRoute**
 
 Hides the OPTIONS route in documentation or server logs.
 
