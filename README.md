@@ -1,5 +1,7 @@
 # CORS Options Configuration Explained
 
+All about CORS : [Notion Page](https://www.notion.so/Backend-15ccbc454e38805bb14af0f46d3fe15a?pvs=4#15ccbc454e38803aa7c0f352b7952e7b)
+
 This document provides a detailed explanation of each CORS configuration option for your application.
 
 ## **1. origin**
